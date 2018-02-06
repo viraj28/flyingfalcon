@@ -4,6 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale = 1">
 
 	<link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 	<style>
@@ -26,13 +27,20 @@
 	</div>
 
 
-	<div id = "nav">
-		 <ul>
-		   <li><a class="active_nav" href="#home">Home</a></li>
-		   <li><a href="#news">Products</a></li>
-		   <li><a href="#contact">Contact</a></li>
-		   <li><a href="#about">About</a></li>
-		 </ul>
+	<div class="navbar">
+	  <a href="#home">Home</a>
+	  <div class="dropdown">
+		    <button class="dropbtn">Products 
+		      <i class="fa fa-caret-down"></i>
+		    </button>
+		    <div class="dropdown-content">
+		      <a href="#">Hoodies</a>
+		      <a href="#">Polo T-Shirts</a>
+		      <a href="#">Round Neck T-Shirts</a>
+		    </div>
+	  </div> 
+	  <a href="#news">Contact</a>
+	  <a href="#news">About</a>
 	</div>
 
 
@@ -67,6 +75,10 @@
 		<span class="dot" onclick="currentSlide(2)"></span> 
 		<span class="dot" onclick="currentSlide(3)"></span> 
 	</div>
+
+
+
+
 
 
 
