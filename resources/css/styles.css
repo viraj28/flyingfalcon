@@ -25,6 +25,7 @@ img {vertical-align: middle;}
 /** navbar **/
 .navbar {
     padding-left: 500px;
+    display: block;
     overflow: hidden;
     background-color: #333;
     font-family: Arial;
@@ -86,20 +87,24 @@ img {vertical-align: middle;}
 }
 
 
+/* Page content 
+.content {
+  padding: 16px;
+}*/
 
 
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
 
-
-
-
-
-
-
-
-
-
-
-
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) 
+.sticky + .content {
+  padding-top: 60px;
+}
+*/
 
 /* Slideshow container */
 
@@ -203,13 +208,45 @@ img {vertical-align: middle;}
         }
 
 
+/*Products case*/
 
 
+ul.products li {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 64px;
+}
+
+.products_case img {width:230px ;
+ height:auto;
+ border: solid black;
+}
+
+.products_case a {
+  text-decoration: none;
+  lighting-color: red;
+}
+.products_case { 
+    margin-left: 210px;
+    margin-right: 110px;
+ }
+
+.products_case .row{ margin-left: -110px }
+
+ /*Footer*/
 
 
+#footer {
+    padding: 20px 0 0;
+}
 
-
-
+#footer .line {
+    width: 100%;
+    padding: 4px 0px;
+    border-top: 4px solid #ff0000;
+    border-bottom: 4px solid #003399;
+}
 
 
 
