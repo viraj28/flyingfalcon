@@ -269,3 +269,57 @@ ul.products li {
 
 
 
+#frame { width: 100% }
+/*Hierarchy*/
+
+.hierarchy{
+  width: 20%;
+  float: left;
+  *display: inline;
+    *zoom: 1;
+}
+
+.hierarchy_container{
+  padding-left: 12px;
+  margin: 0 auto;
+  max-height: auto;
+  *display: inline;
+    *zoom: 1;
+}
+
+
+
+/*Product Grid*/
+
+.detailed_products{
+  margin-left: 20%;
+  *display: inline;
+    *zoom: 1;
+}
+
+.grid_container{
+  width: 100%;
+  margin: 0 auto;
+  max-height: auto;
+}
+
+ul.product_grid li {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 36px;
+    
+    *display: inline;
+    *zoom: 1;
+}
+
+ul.product_grid img{
+  width:auto;
+  max-width: 180px;
+  height:auto;
+  border: solid black;
+}
+
+
+/*FOOTER*/
+

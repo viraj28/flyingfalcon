@@ -2,8 +2,9 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale = 1">
-
+	<title>Flying Falcon</title>
 	<link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/footer-distributed-with-address-and-phones.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
@@ -41,8 +42,8 @@
 			    </button>
 			    <div class="dropdown-content">
 			      <a href="hoodies.html">Hoodies</a>
-			      <a href="#">Polo T-Shirts</a>
-			      <a href="#">Round Neck T-Shirts</a>
+			      <a href="polo.html">Polo T-Shirts</a>
+			      <a href="round.html">Round Neck T-Shirts</a>
 			    </div>
 		  </div> 
 		  <a href="#news">Contact</a>
@@ -52,84 +53,141 @@
 
 
 	<div class = "content">
-	<!-- The Slideshow Container -->
+		<!-- The Slideshow Container -->
 
-	<div class="slideshow-container">
+		<div class="slideshow-container">
 
-		<div class="mySlides fade">
-		  <div class="numbertext">1 / 3</div>
-		  <img src="resources/images/slider/img1.jpg" style="width:100%; max-height: 490px">
-		  <div class="text">Caption Text</div>
+			<div class="mySlides fade">
+			  <div class="numbertext">1 / 3</div>
+			  <img src="resources/images/slider/img1.jpg" style="width:100%; max-height: 490px">
+			  <div class="text">Caption Text</div>
+			</div>
+
+			<div class="mySlides fade">
+			  <div class="numbertext">2 / 3</div>
+			  <img src="resources/images/slider/img2.jpg" style="width:100%; max-height: 490px">
+			  <div class="text">Caption Two</div>
+			</div>
+
+			<div class="mySlides fade">
+			  <div class="numbertext">3 / 3</div>
+			  <img src="resources/images/slider/img3.jpg" style="width:100%; max-height: 490px">
+			  <div class="text">Caption Three</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		</div>
+		<br>
+
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span> 
+			<span class="dot" onclick="currentSlide(2)"></span> 
+			<span class="dot" onclick="currentSlide(3)"></span> 
 		</div>
 
-		<div class="mySlides fade">
-		  <div class="numbertext">2 / 3</div>
-		  <img src="resources/images/slider/img2.jpg" style="width:100%; max-height: 490px">
-		  <div class="text">Caption Two</div>
+
+		<!-- The Popular Products -->
+
+
+		<div class = "products_case" style="padding-top: 88px">
+			<h3><p class ="row"> Our Products </p></h3>
+			<div class = "pc_container">
+				
+				<ul class="products">
+			    	<li>
+			        	<a href="hoodies.html">
+			            <img src="resources/images/product.jpg">
+			            <h4>Hoodies</h4>
+			            <p>Description</p>
+			        	</a>
+			    	</li><li>
+			        	<a href="polo.html">
+			            <img src="resources/images/product.jpg">
+			            <h4>Polo T-Shirts</h4>
+			            <p>Description</p>
+			        	</a>
+			    	</li><li>
+			    		<a href="round.html">
+			            <img src="resources/images/product.jpg">
+			            <h4>Round Neck T-Shirts</h4>
+			            <p>Description</p>
+			        	</a>
+			    	</li><!-- more list items -->
+				</ul>
+			</div>
 		</div>
 
-		<div class="mySlides fade">
-		  <div class="numbertext">3 / 3</div>
-		  <img src="resources/images/slider/img3.jpg" style="width:100%; max-height: 490px">
-		  <div class="text">Caption Three</div>
-		</div>
 
-		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-	</div>
-	<br>
-
-	<div style="text-align:center">
-		<span class="dot" onclick="currentSlide(1)"></span> 
-		<span class="dot" onclick="currentSlide(2)"></span> 
-		<span class="dot" onclick="currentSlide(3)"></span> 
-	</div>
-
-
-	<!-- The Popular Products -->
-
-
-	<div class = "products_case" style="padding-top: 88px">
-		<h3><p class ="row"> Our Products </p></h3>
-		<div class = "pc_container">
+		<!-- Footer -->
+		<div id = "footer">
 			
-			<ul class="products">
-		    	<li>
-		        	<a href="hoodies.html">
-		            <img src="resources/images/product.jpg">
-		            <h4>Hoodies</h4>
-		            <p>Description</p>
-		        	</a>
-		    	</li><li>
-		        	<a href="#">
-		            <img src="resources/images/product.jpg">
-		            <h4>Polo T-Shirts</h4>
-		            <p>Description</p>
-		        	</a>
-		    	</li><li>
-		    		<a href="#">
-		            <img src="resources/images/product.jpg">
-		            <h4>Round Neck T-Shirts</h4>
-		            <p>Description</p>
-		        	</a>
-		    	</li><!-- more list items -->
-			</ul>
+			<div class="line"></div>
+
+				<footer class="footer-distributed">
+
+				<div class="footer-left">
+
+					<h3>Flying<span>Falcon</span></h3>
+
+					<p class="footer-links">
+						<a href="index.html">Home</a>.
+						<a href="#">Blog</a>.
+						<a href="#">Pricing</a>.
+						<a href="#">About</a>.
+						<a href="#">Faq</a>.
+						<a href="#">Contact</a>.
+					</p>
+
+					<p class="footer-company-name">Flying Falcon &copy; 2018</p>
+				</div>
+
+				<div class="footer-center">
+
+					<div>
+						<i class="fa fa-map-marker"></i>
+						<p><span>21 Revolution Street</span> Mumbai, India</p>
+					</div>
+
+					<div>
+						<i class="fa fa-phone"></i>
+						<p>+91 9869485988</p>
+					</div>
+
+					<div>
+						<i class="fa fa-envelope"></i>
+						<p><a href="mailto:support@company.com">support@company.com</a></p>
+					</div>
+
+				</div>
+
+				<div class="footer-right">
+
+					<p class="footer-company-about">
+						<span>About the company</span>
+						Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+					</p>
+
+					<div class="footer-icons">
+
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-github"></i></a>
+
+					</div>
+
+				</div>
+
+			</footer>
+
+
+
 		</div>
-	</div>
-
-
-	<!-- Footer -->
-	<div id = "footer">
-		
-		<div class="line"></div>
-
 
 
 	</div>
-
-
-</div>
 
 
 </body>
