@@ -210,31 +210,41 @@
 		<!-- TESTIMONIALS -->
 
 
-		<h2 style="padding-left: 24px">Testimonials</h2>
+	<div class="testwrap">
+		<h3><p class ="row"> Testimonials </p></h3>
+	 <!-- Testimonials container -->
+		<div class="testimonial-container">
 
-		<div class="container">
-		  <img src="resources/images/product.jpg" alt="Avatar" style="width:90px;height:90px">
-		  <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
-		  <p>John Doe saved us from a web disaster.</p>
+			  <!-- Full-width slides/quotes -->
+			  <div class="myTestimonials">
+			    <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+			    <p class="author">- John Keats</p>
+			  </div>
+
+			  <div class="myTestimonials">
+			    <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+			    <p class="author">- Ernest Hemingway</p>
+			  </div>
+
+			  <div class="myTestimonials">
+			    <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+			    <p class="author">- Thomas A. Edison</p>
+			  </div>
+
+			  <!-- Next/prev buttons -->
+			  <a class="prevTest" onclick="plusTest(-1)">&#10094;</a>
+			  <a class="nextTest" onclick="plusTest(1)">&#10095;</a>
+			
+
+			<!-- Dots/bullets/indicators -->
+			<div class="tipka-container">
+			  <span class="tipka" onclick="currentTest(1)"></span>
+			  <span class="tipka" onclick="currentTest(2)"></span>
+			  <span class="tipka" onclick="currentTest(3)"></span>
+			</div> 
 		</div>
-
-		<div class="container">
-		  <img src="resources/images/female_avatar.png " alt="Avatar" style="width:90px;height:90px">
-		  <p><span>Rebecca Flex.</span> CEO at Company.</p>
-		  <p>No one is better than John Doe.</p>
-		</div>
-
-		<!-- ADD MORE TESTIMONIALS HERE 
-			FORMAT::
-
-			<div class = "container">
-				<img>	</img>
-				<p><span>__nameHere__</span>__POSITION__</p>
-				<p>__Content__</p>
-			</div>
-
-		-->
-
+	</div>
+	
 
 
 
@@ -316,6 +326,7 @@
 
 
 <script src = "resources/js/slider.js"> </script>
+<script src = "resources/js/testimonialSlider.js"> </script>
 
 
 
