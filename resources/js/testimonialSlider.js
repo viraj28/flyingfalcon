@@ -23,4 +23,5 @@ function showTests(n) {
     }
   testimonials[testIndex-1].style.display = "block";
   dots[testIndex-1].className += " active";
+  
 } 
