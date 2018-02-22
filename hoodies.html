@@ -8,12 +8,75 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-	<style>
+
+<style>
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.modal_img{
+
+	margin:20px 40px;
+	width: 25%;
+	height: 430px;
+	display: inline-block;
+
+}
+
+#modal_pic{
 	
+	margin:auto;
+	width: 100%;
+	height: 100%;
+	border: solid black;
+}
 
-
-	</style>
-
+.modal_desc{
+	width: 30%;
+	
+	float: right;
+	margin-top: 20px;
+	margin-right: 20%;
+	display: inline-block;
+}
+</style>
 
 
 </head>
@@ -156,7 +219,7 @@
 			<!-- Division For Hierarchy -->
 			<div class = "hierarchy">
 				<div class = "hierarchy_container">
-					<ul class="hier">
+					<ul>
 			    	<span><b>Browse Products</b></span><li>		     
 			            <a href="hoodies.html"><h4>Hoodies</h4></a>
 			            <ul></ul>
@@ -177,58 +240,114 @@
 
 			<div class="detailed_products">
 				<div class = "grid_container">
-					<p><h2 style="padding-left: 25%"> Our Hoody Collection </h3></p>
+					<p><h2 style="padding-left: 25%"> Our Hoodies Collection </h3></p>
 					<br>
 					<ul class="product_grid">
 					    <li>
-					        <a href="#">
-					            <img class="case" src="resources/images/hoodies/1.jpg">
-					            <h4>Logo Shirt (Gray)</h4>        
+					        <a class = "openmodal" id="myBtn">
+					            <img class="case" src="resources/images/round/aqua.jpg">
+					            <h4>Aqua</h4>        
+					        </a>
+					    </li><!-- The Modal --><div id="myModal" class="modal">
+
+						  <!-- Modal content -->
+						  <div class="modal-content">
+						    <span class="close">&times;</span><br>
+						    <div class = "modal_img">
+						    	<img id = "modal_pic" src="resources/images/round/aqua.jpg">
+						    </div>
+						    <div class = "modal_desc">
+						    	<h3>PRODUCT DESCRIPTION</h3>
+						    	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+						    </div>
+						    <div class = "colors">
+						    </div>
+						  </div>
+
+						</div><!-- MODAL ENDS --><li>
+					        <a class = "openmodal">
+					            <img class="case" src="resources/images/round/black.jpg">
+					            <h4>Black</h4>
 					        </a>
 					    </li><li>
 					        <a href="#">
-					            <img class="case" src="resources/images/hoodies/2.jpg">
-					            <h4>Mike the Frog Shirt (Orange)</h4>
+					            <img class="case" src="resources/images/round/blackmelange.jpg">
+					            <h4>Black Melange</h4>        
 					        </a>
 					    </li><li>
 					        <a href="#">
-					            <img class="case" src="resources/images/hoodies/1.jpg">
-					            <h4>Logo Shirt (Gray)</h4>        
+					            <img class="case" src="resources/images/round/desertsand.jpg">
+					            <h4>Desert Sand</h4>
 					        </a>
 					    </li><li>
 					        <a href="#">
-					            <img class="case"  src="resources/images/hoodies/2.jpg">
-					            <h4>Mike the Frog Shirt (Orange)</h4>
+					            <img class="case" src="resources/images/round/green.jpg">
+					            <h4>Green</h4>        
 					        </a>
 					    </li><li>
 					        <a href="#">
-					            <img class="case" src="resources/images/hoodies/1.jpg">
-					            <h4>Logo Shirt (Gray)</h4>        
+					            <img class="case" src="resources/images/round/grey.jpg">
+					            <h4>Grey</h4>
 					        </a>
 					    </li><li>
 					        <a href="#">
-					            <img class="case" src="resources/images/hoodies/2.jpg">
-					            <h4>Mike the Frog Shirt (Orange)</h4>
+					            <img class="case" src="resources/images/round/greyheather.jpg">
+					            <h4>Grey Heather</h4>        
 					        </a>
 					    </li><li>
 					        <a href="#">
-					            <img class="case" src="resources/images/hoodies/1.jpg">
-					            <h4>Logo Shirt (Gray)</h4>        
+					            <img class="case" src="resources/images/round/huntergreen.jpg">
+					            <h4>Hunter Green</h4>
 					        </a>
 					    </li><li>
 					        <a href="#">
-					            <img class="case" src="resources/images/hoodies/2.jpg">
-					            <h4>Mike the Frog Shirt (Orange)</h4>
+					            <img class="case" src="resources/images/round/mulberry.jpg">
+					            <h4>Mulberry</h4>        
 					        </a>
 					    </li><li>
 					        <a href="#">
-					            <img class="case" src="resources/images/hoodies/1.jpg">
-					            <h4>Logo Shirt (Gray)</h4>        
+					            <img class="case" src="resources/images/round/olive.jpg">
+					            <h4>Olive</h4>
 					        </a>
 					    </li><li>
 					        <a href="#">
-					            <img class="case" src="resources/images/hoodies/2.jpg">
-					            <h4>Mike the Frog Shirt (Orange)</h4>
+					            <img class="case" src="resources/images/round/red.jpg">
+					            <h4>Red</h4>
+					        </a>
+					    </li><li>
+					        <a href="#">
+					            <img class="case" src="resources/images/round/royalblue.jpg">
+					            <h4>Royal Blue</h4>
+					        </a>
+					    </li><li>
+					        <a href="#">
+					            <img class="case" src="resources/images/round/trueblue.jpg">
+					            <h4>True Blue</h4>
+					        </a>
+					    </li><li>
+					        <a href="#">
+					            <img class="case" src="resources/images/round/truenavy.jpg">
+					            <h4>True Navy</h4>
+					        </a>
+					    </li><li>
+					        <a href="#">
+					            <img class="case" src="resources/images/round/turquoiseblue.jpg">
+					            <h4>Turquoise Blue</h4>
+					        </a>
+					    </li><li>
+					        <a href="#">
+					            <img class="case" src="resources/images/round/white.jpg">
+					            <h4>White</h4>
+					        </a>
+					    </li><li>
+					        <a href="#">
+					            <img class="case" src="resources/images/round/whiteheather.jpg">
+					            <h4>White Heather</h4>
+					        </a>
+					    </li><li>
+					        <a href="#">
+					            <img class="case" src="resources/images/round/yellow.jpg">
+					            <h4>Yellow</h4>
 					        </a>
 					    </li><!-- more list items -->
 					</ul>
@@ -306,7 +425,6 @@
 
 		</div>
 
-
 	</div>
 
 
@@ -317,6 +435,9 @@
 
 
 <script src = "resources/js/slider.js"> </script>
+
+<script src="resources/js/modal.js"></script>
+
 
 
 
