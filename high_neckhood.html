@@ -1,365 +1,158 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale = 1">
-	<title>Flying Falcon</title>
-	<link rel="stylesheet" type="text/css" href="resources/css/styles.css">
-	<link rel="stylesheet" type="text/css" href="resources/css/footer-distributed-with-address-and-phones.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>High Neck Hoodies</title>
+	<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/css/bootstrap-theme.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="resources/css/font-awesome.min.css">
+	<link rel="stylesheet" href="resources/css/glasscase.min.css">
+    <link rel="stylesheet" href="resources/css/detail_template.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/footer-distributed-with-address-and-phones.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/basic_round_colors.css">
 
 
-
-<style>
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content */
-.modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-}
-
-/* The Close Button */
-.close {
-    color: red;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-
-.modal_img{
-
-	margin:20px 40px;
-	width: 25%;
-	height: 430px;
-	display: inline-block;
-
-}
-
-#modal_pic{
+   
 	
-	margin:auto;
-	width: 100%;
-	height: 100%;
-	border: solid black;
-}
-
-.modal_desc{
-	width: 30%;
-	
-	float: right;
-	margin-top: 20px;
-	margin-right: 20%;
-	display: inline-block;
-}
-</style>
-
-
 </head>
-
 <body>
-
-
-	<!-- the header -->
-	<div class = "header">
-
-		<img src = "resources/images/byclogo.jpg" width = "100px" height = "100px" >
+	 <div w3-include-html="headerandnav.html"></div> 
+	
 		
-
-
-	</div>
-
-	<!-- the navigation bar -->
-
-	<div class="navbar">
-		<div class = "nav_container">
-		
-		  <a href="index.html">Home</a>
-		  <div class="dropdown">
-			    <button class="dropbtn">Polos  
-			      <i class="fa fa-caret-down"></i>
-			    </button>
-			    <div class="dropdown-content">
-			      <div class = "popover__wrapper">
-			      	<a href="basic_polo.html">Basic Polo T-Shirts</a>
-						<div class="push popover__content">
-				    		<p class="popover__message">Basic Polo T-Shirt</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-				  <div class = "popover__wrapper">
-			      	<a href="ultra_polo.html">Ultra Polo T-Shirts</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">Ultra Polo T-Shirt</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-				  <div class = "popover__wrapper">
-			      	<a href="heavy_polo.html">Heavy Polo T-Shirts</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">Heavy Polo T-Shirt</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-			    </div>
-		  </div> 
-		  <div class="dropdown">
-			    <button class="dropbtn">Round Neck T-Shirts 
-			      <i class="fa fa-caret-down"></i>
-			    </button>
-			    <div class="dropdown-content">
-			      <div class = "popover__wrapper">
-			      	<a href="basic_round.html">Basic Cotton T-Shirts</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">Basic Cotton T-Shirt</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-			      <div class = "popover__wrapper">
-			      	<a href="ultra_round.html">Ultra Cotton T-Shirts</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">Ultra Cotton T-Shirt</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-			      <div class = "popover__wrapper">
-			      	<a href="heavy_round.html">Heavy Cotton T-Shirts</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">Heavy Cotton T-Shirt</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-			      <div class = "popover__wrapper">
-			      	<a href="polyester.html">Polyester Dri-Fits</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">Polyester Dri-Fits</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-			    </div>
-		  </div> 
-		  <div class="dropdown">
-			    <button class="dropbtn">Hoodies
-			      <i class="fa fa-caret-down"></i>
-			    </button>
-			    <div class="dropdown-content">
-			      <div class = "popover__wrapper">
-			      	<a href="full_zipper.html">Full Frontal Zipper</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">Full Frontal Zipper</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-			      <div class = "popover__wrapper">
-			      	<a href="pull_overhood.html">Pull Over Hoodie</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">Pull Over Hoodie</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-			     <div class = "popover__wrapper">
-			      	<a href="high_neckhood.html">High Neck Hoodie</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">High Neck Hoodie</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-			      <div class = "popover__wrapper">
-			      	<a href="sweat_shirts.html">Sweat Shirts</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">Sweat Shirts</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-			    </div>
-		  </div> 
-		  <a href="contact.html">Contact</a>
-		  <a href="#news">About</a>
-		</div>
-	</div>
-
-
-	<div class = "content">
-		<br>
-
-		<div style="text-align:center">
-			<span class="dot" onclick="currentSlide(1)"></span> 
-			<span class="dot" onclick="currentSlide(2)"></span> 
-			<span class="dot" onclick="currentSlide(3)"></span> 
-		</div>
-
-
-
-		
-		<div id = frame>
-			<!-- Division For Hierarchy -->
-			<div class = "hierarchy">
-				<div class = "hierarchy_container">
-					<ul>
-			    	<span><b>Browse Products</b></span><li>		     
-			            <a href="hoodies.html"><h4>Hoodies</h4></a>
-			            <ul></ul>
-			            
-			    	</li><li>		        	
-			            <a href="polo.html"><h4>Polo T-Shirts</h4></a>
-			            <ul></ul>
-			    	</li><li>	
-			            <a href="round.html"><h4>Round Neck T-Shirts</h4></a>
-			          	<ul></ul>
-			    	</li><!-- more list items -->
-				</ul>
-				</div> 
+		<div id="main">
+        <div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-offset-4 col-sm-5">
+					<h1 class="title">High Neck Hodies</h1>
+				</div>
 			</div>
-
-
-			<!-- Products to Display -->
-
-			<div class="detailed_products">
-				<div class = "grid_container">
-					<p><h2 style="padding-left: 25%"> Round Neck Tees Collection </h3></p>
-					<br>
-					<ul class="product_grid">
-					    <li>
-					        <a class = "openmodal" id="myBtn">
-					            <img class="case" src="resources/images/round/aqua.jpg">
-					            <h4>Aqua</h4>        
-					        </a>
-					    </li><!-- The Modal --><div id="myModal" class="modal">
-
-						  <!-- Modal content -->
-						  <div class="modal-content">
-						    <span class="close">&times;</span><br>
-						    <div class = "modal_img">
-						    	<img id = "modal_pic" src="resources/images/round/aqua.jpg">
-						    </div>
-						    <div class = "modal_desc">
-						    	<h3>PRODUCT DESCRIPTION</h3>
-						    	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-						    </div>
-						    <div class = "colors">
-						    </div>
-						  </div>
-
-						</div><!-- MODAL ENDS --><li>
-					        <a class = "openmodal">
-					            <img class="case" src="resources/images/round/black.jpg">
-					            <h4>Black</h4>
-					        </a>
-					    </li><li>
-					        <a href="#">
-					            <img class="case" src="resources/images/round/blackmelange.jpg">
-					            <h4>Black Melange</h4>        
-					        </a>
-					    </li><li>
-					        <a href="#">
-					            <img class="case" src="resources/images/round/desertsand.jpg">
-					            <h4>Desert Sand</h4>
-					        </a>
-					    </li><li>
-					        <a href="#">
-					            <img class="case" src="resources/images/round/green.jpg">
-					            <h4>Green</h4>        
-					        </a>
-					    </li><li>
-					        <a href="#">
-					            <img class="case" src="resources/images/round/grey.jpg">
-					            <h4>Grey</h4>
-					        </a>
-					    </li><li>
-					        <a href="#">
-					            <img class="case" src="resources/images/round/greyheather.jpg">
-					            <h4>Grey Heather</h4>        
-					        </a>
-					    </li><li>
-					        <a href="#">
-					            <img class="case" src="resources/images/round/huntergreen.jpg">
-					            <h4>Hunter Green</h4>
-					        </a>
-					    </li><li>
-					        <a href="#">
-					            <img class="case" src="resources/images/round/mulberry.jpg">
-					            <h4>Mulberry</h4>        
-					        </a>
-					    </li><li>
-					        <a href="#">
-					            <img class="case" src="resources/images/round/olive.jpg">
-					            <h4>Olive</h4>
-					        </a>
-					    </li><li>
-					        <a href="#">
-					            <img class="case" src="resources/images/round/red.jpg">
-					            <h4>Red</h4>
-					        </a>
-					    </li><li>
-					        <a href="#">
-					            <img class="case" src="resources/images/round/royalblue.jpg">
-					            <h4>Royal Blue</h4>
-					        </a>
-					    </li><li>
-					        <a href="#">
-					            <img class="case" src="resources/images/round/trueblue.jpg">
-					            <h4>True Blue</h4>
-					        </a>
-					    </li><li>
-					        <a href="#">
-					            <img class="case" src="resources/images/round/truenavy.jpg">
-					            <h4>True Navy</h4>
-					        </a>
-					    </li><li>
-					        <a href="#">
-					            <img class="case" src="resources/images/round/turquoiseblue.jpg">
-					            <h4>Turquoise Blue</h4>
-					        </a>
-					    </li><li>
-					        <a href="#">
-					            <img class="case" src="resources/images/round/white.jpg">
-					            <h4>White</h4>
-					        </a>
-					    </li><li>
-					        <a href="#">
-					            <img class="case" src="resources/images/round/whiteheather.jpg">
-					            <h4>White Heather</h4>
-					        </a>
-					    </li><li>
-					        <a href="#">
-					            <img class="case" src="resources/images/round/yellow.jpg">
-					            <h4>Yellow</h4>
-					        </a>
-					    </li><!-- more list items -->
-					</ul>
-
+            <div class="row">
+            	<div class="col-sm-4">
+					<div class="description">
+						<h4>High Neck Hoodies</h4>
+						
+						<p>Beat the Summer Heat with our pure cotton Polo shirts.</p>
+						
+						<p>Casablanca Entree gives a great feel to the body and keeps you comfortable through the day. Its our Entree level to the world of Cotton Polos.</p>
+						
+					</div>
+					<div class="specs">
+						<p><strong>Product Specifications:</strong></p>
+						<ul>
+							
+							<li>220 gsm (6.5 Ounces)</li>
+							
+							<li>100% ring-spun cotton</li>
+							
+							<li>Compacted Pre-shrunk</li>
+							
+							<li>Soft Flow dyed</li>
+							
+							<li>Single needle stitch on the sleeves and bottom hem</li>
+							
+							<li>3 Button placket with dyed to match buttons and bottom box stitch</li>
+							
+							<li>Color fastness Guaranteed</li>
+							
+						</ul>
+					</div>
+					<div class="usage">
+						<p><strong>Ideal Usage:</strong></p>
+						
+						<p>Polo shirts for Road shows, Events, Promotional Give Away</p>
+						
+					</div>
+				</div>
+				<div class="col-sm-3">
+				<p class="pid">Product Code: <span>#doesntmatter</span></p>
+				<div style="width: 300px;height: 390px;margin-right: 64px;">
+					<img id= "detail_pic" src="resources/images/round/aqua.jpg" style="margin-left: 20px;box-shadow: 0 0 4px 0 #000">
 				</div>
 
+				 <!-- <ul id="product" class="gc-start">
+					
+				</ul> -->
+				<div class="clearfix"></div>
+				</div> 
+				<div class="col-sm-2">
+				<p class="ca">Colours Available:</p>
+				<div class="colorBox">
+				<ul class="colorsec1">
+					
+					<li ><a class="changepic"><img src="resources/images/round/aqua.jpg" style="display: none;"><span id="aqua" class="color"></span><span class="colorName">Aqua</span></a></li>
+
+					<li><a class="changepic"><img src="resources/images/round/black.jpg" style="display: none;"><span id="black" class="color"></span><span class="colorName">Black</span></a></li>
+
+					<li><a class="changepic"><img src="resources/images/round/desertsand.jpg" style="display: none;"><span id="desertsand" class="color"></span><span class="colorName">Desert Sand</span></a></li>
+					
+					<li><a class="changepic"><img src="resources/images/round/green.jpg" style="display: none;"><span id="green" class="color"></span><span class="colorName">Green</span></a></li>
+
+					<li><a class="changepic"><img src="resources/images/round/grey.jpg" style="display: none;"><span id="grey" class="color"></span><span class="colorName">Grey</span></a></li>
+
+					
+					
+				</ul>
+				<ul class="colorsec2">
+					
+				</ul>
+				<ul class="colorsec3">
+					
+				</ul>
+				</div>
+				<div class="clearfix"></div>
+				<span class="differ">*Colours viewed on the computer may differ from the original product.</span>
+				<div class="clearfix"></div>
+				<p class="cc">Category:</p>
+				<a href="Uproducts.asp?id=1001#" class="btn btn-default men">Unisex</a>
+			</div>
+			<div class="col-sm-3">
+				<div class="sizechart pull-left">
+					<h3>Size Chart:</h3>
+					<img src="img/scPolos.jpg" width="200px" class="img-responsive"/>
+					<br/>
+					<span>A - Length</span>&nbsp;&nbsp;<span>B - Chest</span>
+					<br/>
+					<a href="http://sampledraw.com/CategoryWiseProduct.aspx?CategoryId=5" target="_blank" class="cd">Custom Design</a>
+				</div>
+				<script type="text/javascript" src="2Sizechart.js"></script>
+				</div>
+
+
+			</div>
+			<br/>
+			<div class="row">
+				
+				
+				<div class="col-sm-offset-3 col-sm-8">
+					<h3 class="rp">Related Products:</h3>
+					
+					<div class="thumbnail">
+						<a href="full_zipper.html"><img src="img/products/polos/5017/men/peaGreen/Pea&#32;Green&#32;Polo&#32;shirt&#32;with&#32;Black&#32;collar&#32;and&#32;cuff.jpg" class="img-responsive" alt="Comfort Zone Polo"/>
+						<p>Full Frontal Zipper</p></a>
+					</div>
+					
+					<div class="thumbnail">
+						<a href="pull_overhood.html"><img src="img/products/polos/2102/men/tangerine/Men&#32;Tangerine&#32;Polo&#32;Shirt&#32;Front.jpg" class="img-responsive" alt="Performance Cotton Polo"/>
+						<p>Pullover Hoodies</p></a>
+					</div>
+					
+					<div class="thumbnail">
+						<a href="high_neckhood.html"><img src="img/products/polos/4016/skyBlue/Light&#32;Blue&#32;Collar&#32;T-shirt.jpg" class="img-responsive" alt="Cotton Sports Polo"/>
+						<p>High Neck Hoodies</p></a>
+					</div>
+
+					<div class="thumbnail">
+						<a href="sweat_shirts.html"><img src="img/products/polos/4016/skyBlue/Light&#32;Blue&#32;Collar&#32;T-shirt.jpg" class="img-responsive" alt="Cotton Sports Polo"/>
+						<p>Sweat Shirts</p></a>
+					</div>
+					
+				</div>
 			</div>
 		</div>
+	</div>
 
-
-
-		<!-- Footer -->
+	<!-- Footer -->
 		<div id = "footer">
 			
 			<div class="line"></div>
@@ -425,24 +218,110 @@
 
 		</div>
 
+
 	</div>
+
+	<script type="text/javascript" src="resources/js/color_image_link.js"/>
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.glasscase.min.js"></script>
+	<script src="js/jquery.menu-aim.js"></script> 
+	<script>
+		$(document).ready(function(){
+			$("#product").glassCase({ 'colorIcons': '#000', 'widthDisplay': '300', 'heightDisplay': '420', 'isDownloadEnabled': 'false', });
+			
+			$('.dropdown-submenu a').on("click", function(e){
+				$(this).next('ul').toggle();
+				e.stopPropagation();
+			});
+		});
+	</script>
+	<script>
+
+        var $menu = $(".dropdown-menu");
+
+        // jQuery-menu-aim: <meaningful part of the example>
+        // Hook up events to be fired on menu row activation.
+        $menu.menuAim({
+            activate: activateSubmenu,
+            deactivate: deactivateSubmenu
+        });
+        // jQuery-menu-aim: </meaningful part of the example>
+
+        // jQuery-menu-aim: the following JS is used to show and hide the submenu
+        // contents. Again, this can be done in any number of ways. jQuery-menu-aim
+        // doesn't care how you do this, it just fires the activate and deactivate
+        // events at the right times so you know when to show and hide your submenus.
+        function activateSubmenu(row) {
+            var $row = $(row),
+                submenuId = $row.data("submenuId"),
+                $submenu = $("#" + submenuId),
+                height = $menu.outerHeight(),
+                width = $menu.outerWidth();
+
+            // Show the submenu
+            $submenu.css({
+                display: "block",
+                top: -1,
+                left: width - 3,  // main should overlay submenu
+                height: height - 4  // padding for main dropdown's arrow
+            });
+
+            // Keep the currently activated row's highlighted look
+            $row.find("a").addClass("maintainHover");
+        }
+
+        function deactivateSubmenu(row) {
+            var $row = $(row),
+                submenuId = $row.data("submenuId"),
+                $submenu = $("#" + submenuId);
+
+            // Hide the submenu and remove the row's highlighted look
+            $submenu.css("display", "none");
+            $row.find("a").removeClass("maintainHover");
+        }
+
+        $(document).click(function() {
+            // Simply hide the submenu on any click. Again, this is just a hacked
+            // together menu/submenu structure to show the use of jQuery-menu-aim.
+            $(".popover").css("display", "none");
+            $("a.maintainHover").removeClass("maintainHover");
+        });
+    </script>
+    <script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+}
+</script> 
+ <script>
+includeHTML();
+</script>
 
 
 </body>
-
-
-
-
-
-<script src = "resources/js/slider.js"> </script>
-
-<script src="resources/js/modal.js"></script>
-
-
-
-
-
-
-
-
 </html>
