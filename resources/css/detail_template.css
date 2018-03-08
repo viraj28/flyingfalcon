@@ -559,6 +559,20 @@ h1,h2,h3 {
 /*==========================================================================
 	Colors Section
 ===========================================================================*/
+@media only screen and (max-width: 980px) {
+	.colours{
+		margin-top: 64px;
+		margin-left: 8px;
+	}
+
+	.pro{
+		margin-top: 64px;
+		width: 100%;
+		margin:0 auto;
+	}
+}
+
+
 
 /* Normal Colors */
 #aqua{
@@ -1847,8 +1861,8 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 #footer .line {
 	width: 100%;
 	padding: 4px 0px;
-	border-top: 4px solid #ff0000;
-	border-bottom: 4px solid #003399;
+	border-top: 4px solid #000;
+	border-bottom: 4px solid #808080;
 }
 #footer .cinfo { 
 	padding: 30px 50px;
