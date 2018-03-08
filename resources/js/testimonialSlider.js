@@ -1,4 +1,4 @@
-var testIndex = 1;
+/*var testIndex = 1;
 showTests(testIndex);
 
 function plusTest(n) {
@@ -23,5 +23,29 @@ function showTests(n) {
     }
   testimonials[testIndex-1].style.display = "block";
   dots[testIndex-1].className += " active";
-  
+  setTimeout(showTests, 2000); // Change image every 2 seconds
 } 
+*/
+
+
+
+
+var testIndex = 0;
+showTests();
+
+function showTests() {
+    var i;
+    var testimonials = document.getElementsByClassName("myTestimonials");
+    var dots = document.getElementsByClassName("tipka");
+    for (i = 0; i < testimonials.length; i++) {
+       testimonials[i].style.display = "none";  
+    }
+    testIndex++;
+    if (testIndex > testimonials.length) {testIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    testimonials[testIndex-1].style.display = "block";  
+    dots[testIndex-1].className += " active";
+    setTimeout(showTests, 2000); // Change image every 2 seconds
+}

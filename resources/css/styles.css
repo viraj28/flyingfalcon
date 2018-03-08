@@ -28,7 +28,7 @@ img {vertical-align: middle;}
     padding: 0 auto;
     display: block;
     overflow: hidden;
-    background-color: #333;
+    background-color: #000;
     font-family: Arial;
 }
 
@@ -325,8 +325,13 @@ ul.products li {
   text-decoration: none;
   text-align: center;
 }
+.proimg:hover ~ h4{
+  color: red;
+}
 
-
+.proimg:hover{
+  opacity: 0.8;
+}
 
 
 /*TESTIMONIALS*/
@@ -344,7 +349,7 @@ ul.products li {
   position: relative;
   height:400px;
   
-  background: url(../images/testimonials1-bg.jpg) no-repeat 0px 0px;
+  background: url(../images/people-say-bg.jpg) no-repeat 0px 0px;
   background-size: 100% 100%;
 }
 
