@@ -429,6 +429,21 @@ ul.products li {
   
 }
 
+@media only screen and (max-width: 980px){
+  .tipka-container{
+    display: none;
+    visibility: hidden;
+  }
+}
+
+
+@media only screen and (max-width: 480px){
+  .tipka-container{
+    display: none;
+    visibility: hidden;
+  }
+}
+
 /* The dots/bullets/indicators */
 .tipka {
   cursor: pointer;
