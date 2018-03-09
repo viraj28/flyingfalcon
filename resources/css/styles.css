@@ -518,9 +518,10 @@ ul.products li {
 }
 
 .products{
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
   display: block;
+  padding-left: 7%;
 }
 
 .pc_container{
