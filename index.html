@@ -30,9 +30,13 @@
 	<!-- the navigation bar -->
 
 	<div class="navbar">
-		<div class = "nav_container">
+		<div class = "nav_container" id="myTopnav">
 		
 		  <a href="index.html">Home</a>
+		  <a class="responsive_a" href="basic_polo_detail.html">Polos</a>
+		   <a class="responsive_a" href="basic_round_detail.html">Round Neck Tees</a>
+		    <a class="responsive_a" href="full_zipper.html">Hoodies</a>
+
 		  <div class="dropdown">
 			    <button class="dropbtn">Polos  
 			      <i class="fa fa-caret-down"></i>
@@ -133,7 +137,10 @@
 		  </div> 
 		  <a href="contact.html">Contact</a>
 		  <a href="#news">About</a>
+		  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 		</div>
+
+		<a href="#" class="nav-toggle">Menu<span></span></a> </div>
 	</div>
 
 
@@ -144,7 +151,7 @@
 
 			<div class="mySlides fade">
 			  <div class="numbertext">1 / 3</div>
-			  <img src="resources/images/slider/banner1.jpg" style="width:100%; max-height: 600px">
+			  <img src="resources/images/slider/banner1.jpg" style="width:100%; max-height: 490px">
 			  <!-- <div class="text">Caption Text</div> -->
 			</div>
 
@@ -330,7 +337,21 @@
 
 <script src = "resources/js/slider.js"> </script>
 <script src = "resources/js/testimonialSlider.js"> </script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "nav_container") {
+        x.className += " responsive";
+        var y = document.getElementByTagName("button");
+        y.className = "";
+    } else {
+        x.className = "nav_container";
+    }
+    
 
+}
+</script>
 
 
 

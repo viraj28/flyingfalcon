@@ -21,9 +21,13 @@
 	<!-- the navigation bar -->
 
 	<div class="navbara">
-		<div class = "nav_containera">
+		<div class = "nav_containera" id="myTopnav">
 		
 		  <a href="index.html">Home</a>
+		  <a class="responsive_a" href="basic_polo_detail.html">Polos</a>
+		   <a class="responsive_a" href="basic_round_detail.html">Round Neck Tees</a>
+		    <a class="responsive_a" href="full_zipper.html">Hoodies</a>
+
 		  <div class="dropdowna">
 			    <button class="dropbtna">Polos  
 			      <i class="fa fa-caret-down"></i>
@@ -124,9 +128,24 @@
 		  </div> 
 		  <a href="contact.html">Contact</a>
 		  <a href="#news">About</a>
+		  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 		</div>
 	</div>
 
 
 </body>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "nav_containera") {
+        x.className += " responsive";
+        var y = document.getElementByTagName("button");
+        y.className = "";
+    } else {
+        x.className = "nav_containera";
+    }
+    
+
+}
+</script>
 </html>

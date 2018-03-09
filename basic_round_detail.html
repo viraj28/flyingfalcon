@@ -321,6 +321,20 @@ function includeHTML() {
  <script>
 includeHTML();
 </script>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "nav_containera") {
+        x.className += " responsive";
+        var y = document.getElementByTagName("button");
+        y.className = "";
+    } else {
+        x.className = "nav_containera";
+    }
+    
+
+}
+</script>
 
 
 </body>

@@ -71,11 +71,12 @@
         height: 400px;
         width: 100%;
        }
+       
 
 
 
     </style>
-
+    <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
 
 	
 </head>
@@ -95,9 +96,12 @@
 	<!-- the navigation bar -->
 
 	<div class="navbar">
-		<div class = "nav_container">
+		<div class = "nav_container" id="myTopnav">
 		
 		  <a href="index.html">Home</a>
+		  <a class="responsive_a" href="basic_polo_detail.html">Polos</a>
+		  <a class="responsive_a" href="basic_round_detail.html">Round Neck Tees</a>
+	      <a class="responsive_a" href="full_zipper.html">Hoodies</a>
 		  <div class="dropdown">
 			    <button class="dropbtn">Polos  
 			      <i class="fa fa-caret-down"></i>
@@ -198,6 +202,7 @@
 		  </div> 
 		  <a href="contact.html">Contact</a>
 		  <a href="#news">About</a>
+		  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 		</div>
 	</div>
 
@@ -335,7 +340,20 @@
 
 <script src = "resources/js/slider.js"> </script>
 <script src = "resources/js/testimonialSlider.js"> </script>
+<!-- <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "nav_containera") {
+        x.className += " responsive";
+        var y = document.getElementByTagName("button");
+        y.className = "";
+    } else {
+        x.className = "nav_containera";
+    }
+    
 
+}
+</script> -->
 
 
 
