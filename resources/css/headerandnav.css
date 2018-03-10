@@ -23,8 +23,26 @@ img {vertical-align: middle;}
 
 
 /** navbar **/
+.nav_containera a{
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+.nav_containera {
+  list-style: none;
+  margin-top: 0; 
+  font-family: 'PT Sans',sans-serif; 
+  font-size: 20px;
+}
+
+button#dropbtna{
+  font-size: 20px;
+}
+  
+
+
 .navbara {
-    padding: 0 auto;
+  width: 100%;
     display: block;
     overflow: hidden;
     background-color: #000;
@@ -33,15 +51,14 @@ img {vertical-align: middle;}
 
 
 .nav_containera{
-  width: 70%;
-  padding-left: 12%;
+  display: table;
   margin: 0 auto;
   max-height: auto;
 }
 
 .navbara a {
     float: left;
-    font-size: 16px;
+    font-size: 20px;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -54,7 +71,7 @@ img {vertical-align: middle;}
 }
 
 .dropdowna .dropbtna {
-    font-size: 24px;    
+    font-size: 20px;    
     border: none;
     outline: none;
     color: white;
