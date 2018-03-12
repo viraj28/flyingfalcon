@@ -239,6 +239,7 @@ button#dropbtn{
   .dots{
     display: none;
   }
+  
   .nav_container a:not(:first-child) {display: none;}
   .nav_container div{display: none;}
   .nav_container a.icon {
@@ -261,6 +262,9 @@ button#dropbtn{
   display: inline-block;
   visibility:visible;
 
+}
+ul#horizontal-list li {
+  display: inline;
 }
   
 }
@@ -429,6 +433,18 @@ ul#horizontal-list {
   }
   ul#horizontal-list li {
     display: inline-block;
+  }
+  @media only screen and (max-width: 480px){
+    ul#horizontal-list li {
+      display: block;
+      margin: 0 auto;
+    }
+    .myslides img{
+      height:30%;
+    }
+    .products_case h2{
+      transform: scale(0.7);
+    }
   }
 
 
