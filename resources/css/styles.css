@@ -439,9 +439,9 @@ ul#horizontal-list {
       display: block;
       margin: 0 auto;
     }
-    .myslides img{
+    /*.myslides img{
       height:30%;
-    }
+    }*/
     .products_case h2{
       transform: scale(0.7);
     }
