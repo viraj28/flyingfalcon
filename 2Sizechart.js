@@ -1,4 +1,4 @@
-document.write('<table class="table table-responsive table-bordered pull-left">        ');
+document.write('<table class="table table-responsive table-bordered pull-left" style="margin-left:auto;">        ');
 document.write('	<thead>                                                            ');
 document.write('		<tr><th colspan="6">SIZE CHART (In Inches)</th></tr> ');
 document.write('	</thead>                                                           ');

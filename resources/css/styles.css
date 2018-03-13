@@ -436,8 +436,8 @@ ul#horizontal-list {
   }
   @media only screen and (max-width: 480px){
     ul#horizontal-list li {
-      display: block;
-      margin: 0 auto;
+      
+      margin-left:18%;
     }
     /*.myslides img{
       height:30%;

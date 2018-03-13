@@ -272,8 +272,15 @@ MEDIA QUERIES
   .responsive_a{
   display: inline-block;
   visibility:visible;
-
 }
+
+  #prod_image{
+  	margin-left: 48px;
+margin-top: 32px;
+margin-bottom: 32px;
+  	}
+
+  
   
 }
 
