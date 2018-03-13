@@ -247,6 +247,14 @@ MEDIA QUERIES
   
   
 }
+
+#desc{
+	padding-left: 5%;
+}
+.colours{
+	margin-left: -4%;
+}
+
 @media only screen and (max-width: 480px){
 	#main{
 		margin-top: 20px;
@@ -280,7 +288,12 @@ margin-top: 32px;
 margin-bottom: 32px;
   	}
 
-  
+  #desc{
+  	padding-left: auto;
+  }
+  .colours{
+  	margin-left: auto;
+  }
   
 }
 
