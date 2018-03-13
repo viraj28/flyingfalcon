@@ -244,16 +244,47 @@ MEDIA QUERIES
   #main{
   	margin-top: 20px;
   }
-  
+  #related{
+  	position: relative;
+  	top:0px;
+  }
+  .description{
+	margin-left: 0%;
+}
+.specs{
+	margin-left: 0%;
+}
+.usage{
+	margin-left: 0%;
+}
   
 }
 
-#desc{
-	padding-left: auto;
+
+.description{
+	margin-left: 20%;
+}
+.specs{
+	margin-left: 20%;
+}
+.usage{
+	margin-left: 20%;
 }
 .colours{
 	margin-left: -4%;
 }
+#related{
+	position: relative;
+	top: -120px;
+}
+
+#detail_pic{
+  		margin-left: -12%;
+		box-shadow: 0 0 16px 0 #000;
+		height: 100%;
+		margin-top: 8%;
+		width: 80%;
+  	}
 
 @media only screen and (max-width: 480px){
 	#main{
@@ -288,12 +319,35 @@ margin-top: 32px;
 margin-bottom: 32px;
   	}
 
+  	#detail_pic{
+  		margin-left: 2%;
+		box-shadow: 0 0 16px 0 #000;
+		height: 100%;
+		margin-top: 8%;
+		width: 80%;
+  	}
+
   #desc{
   	padding-left: auto;
   }
   .colours{
   	margin-left: auto;
   }
+
+  #related{
+  	position: relative;
+  	top:0px;
+  }
+   .description{
+	margin-left: 0%;
+}
+.specs{
+	margin-left: 0%;
+}
+.usage{
+	margin-left: 0%;
+}
+  
   
 }
 
