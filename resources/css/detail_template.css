@@ -249,7 +249,7 @@ MEDIA QUERIES
 }
 
 #desc{
-	padding-left: 5%;
+	padding-left: auto;
 }
 .colours{
 	margin-left: -4%;
@@ -283,7 +283,7 @@ MEDIA QUERIES
 }
 
   #prod_image{
-  	margin-left: 48px;
+  	margin-left: 44px;
 margin-top: 32px;
 margin-bottom: 32px;
   	}
