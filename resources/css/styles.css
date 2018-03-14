@@ -487,7 +487,7 @@ ul#horizontal-list {
   margin-bottom: 4%;
 }
 
-ul#client-list { list-style: none;  }
+/*ul#client-list { list-style: none;  }
 ul#client-list li {
     display: inline-block;
     margin-right: 64px;
@@ -498,7 +498,19 @@ ul#client-list li>img{
   width: 150px;
   height: 150px;
 }
+*/
 
+.clients { list-style: none;  }
+.clients li {
+    display: inline-block;
+    margin-right: 64px;
+    margin-top: 16px;
+}
+
+.clients li>img{
+  width: 150px;
+  height: 150px;
+}
 
 @media only screen and (max-width:980px){
   .products img{
