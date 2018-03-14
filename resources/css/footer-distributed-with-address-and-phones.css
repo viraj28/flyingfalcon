@@ -5,11 +5,12 @@
 .footer-links a{
 	margin-right: 16px;
 }
-.footer-center{
-	margin-left: -4%;
+
+.footer-left{
+	padding-left: 8%;
 }
 .footer-right{
-	margin-left: -3%;
+	margin-left: -9%;
 }
 .footer-distributed{
 	background-color: #292c2f;

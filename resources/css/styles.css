@@ -474,7 +474,7 @@ ul#horizontal-list {
   margin: 0 auto;
   font-family: 'Arial',sans-serif;
   text-align: center;
- 
+  margin-top: 7%;
 
 }
 .client_container p{
@@ -492,6 +492,11 @@ ul#client-list li {
     display: inline-block;
     margin-right: 64px;
     margin-top: 16px;
+}
+
+ul#client-list li>img{
+  width: 150px;
+  height: 150px;
 }
 
 

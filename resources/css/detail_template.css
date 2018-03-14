@@ -272,6 +272,13 @@ MEDIA QUERIES
 }
 .colours{
 	margin-left: -4%;
+
+}
+.colorsec1 li{
+	cursor: pointer;
+}
+.colorsec1 li:hover{
+	opacity:0.7;
 }
 #related{
 	position: relative;
@@ -279,11 +286,11 @@ MEDIA QUERIES
 }
 
 #detail_pic{
-  		margin-left: -12%;
-		box-shadow: 0 0 16px 0 #000;
-		height: 100%;
+  		
+		box-shadow: 0 0 20px 0 #000;
+		
 		margin-top: 8%;
-		width: 80%;
+		width: 97%;
   	}
 
 @media only screen and (max-width: 480px){
@@ -654,18 +661,19 @@ margin-bottom: 32px;
 .thumbnail {
 	padding: 0px;
 	border-radius: 0;
-	width: 175px;
+	width: 189px;
 	margin-right: 20px;
 	display: inline-block;
 	text-align: center;
 }
 .thumbnail img {
 	padding: 10px 10px 0px 10px;
+
 }
 .thumbnail p {
 	background-color: #dedede;
 	padding: 5px 10px;
-	font-size: 12px;
+	font-size: 16px;
 	margin: 0px;
 }
 .differ {
