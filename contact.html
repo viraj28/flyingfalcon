@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="resources/css/styles.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/footer-distributed-with-address-and-phones.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet"> 
 	
 	<style type="text/css">
 
@@ -16,11 +17,14 @@
 	  }
 
 	  .form{
+	  	width:75%;
+	  	margin: 0 auto;
 	  	padding: 30px;
 	  }
 
+
 		input[type=text] {
-		    width: 48%;
+		    width: 47%;
 		    padding: 12px;
 		    border: 1px solid #ccc;
 		    border-radius: 4px;
@@ -55,10 +59,11 @@
 		    border: none;
 		    border-radius: 10px;
 		    cursor: pointer;
-		    margin-left: 46%;
+		    margin-left: 44%;
 		    margin-right: 48%;
 		    margin-top: 32px;
 		    margin-bottom: 32px;	
+		    font-size: 25px;
 		}
 
 		input[type=submit]:hover {
@@ -72,6 +77,15 @@
         width: 100%;
        }
        
+       @media only screen and (max-width:480px){
+	  	.form{
+	  		width:90%;
+	  	}
+	  	input[type=text]{
+	  		width:94%;
+	  	}
+	  }
+
 
 
 
@@ -84,128 +98,7 @@
 <body>
 
 
-	<!-- the header -->
-	<div class = "header">
-
-		<img src = "resources/images/byclogo.jpg" width = "100px" height = "100px" >
-		
-
-
-	</div>
-
-	<!-- the navigation bar -->
-
-	<div class="navbar">
-		<div class = "nav_container" id="myTopnav">
-		
-		  <a href="index.html">Home</a>
-		  <a class="responsive_a" href="basic_polo_detail.html">Polos</a>
-		  <a class="responsive_a" href="basic_round_detail.html">Round Neck Tees</a>
-	      <a class="responsive_a" href="full_zipper.html">Hoodies</a>
-		  <div class="dropdown">
-			    <button class="dropbtn">Polos  
-			      <i class="fa fa-caret-down"></i>
-			    </button>
-			    <div class="dropdown-content">
-			      <div class = "popover__wrapper">
-			      	<a href="basic_polo.html">Basic Polo T-Shirts</a>
-						<div class="push popover__content">
-				    		<p class="popover__message">Basic Polo T-Shirt</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-				  <div class = "popover__wrapper">
-			      	<a href="ultra_polo.html">Ultra Polo T-Shirts</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">Ultra Polo T-Shirt</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-				  <div class = "popover__wrapper">
-			      	<a href="heavy_polo.html">Heavy Polo T-Shirts</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">Heavy Polo T-Shirt</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-			    </div>
-		  </div> 
-		  <div class="dropdown">
-			    <button class="dropbtn">Round Neck T-Shirts 
-			      <i class="fa fa-caret-down"></i>
-			    </button>
-			    <div class="dropdown-content">
-			      <div class = "popover__wrapper">
-			      	<a href="basic_round.html">Basic Cotton T-Shirts</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">Basic Cotton T-Shirt</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-			      <div class = "popover__wrapper">
-			      	<a href="ultra_round.html">Ultra Cotton T-Shirts</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">Ultra Cotton T-Shirt</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-			      <div class = "popover__wrapper">
-			      	<a href="heavy_round.html">Heavy Cotton T-Shirts</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">Heavy Cotton T-Shirt</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-			      <div class = "popover__wrapper">
-			      	<a href="polyester.html">Polyester Dri-Fits</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">Polyester Dri-Fits</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-			    </div>
-		  </div> 
-		  <div class="dropdown">
-			    <button class="dropbtn">Hoodies
-			      <i class="fa fa-caret-down"></i>
-			    </button>
-			    <div class="dropdown-content">
-			      <div class = "popover__wrapper">
-			      	<a href="full_zipper.html">Full Frontal Zipper</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">Full Frontal Zipper</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-			      <div class = "popover__wrapper">
-			      	<a href="pull_overhood.html">Pull Over Hoodie</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">Pull Over Hoodie</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-			     <div class = "popover__wrapper">
-			      	<a href="high_neckhood.html">High Neck Hoodie</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">High Neck Hoodie</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-			      <div class = "popover__wrapper">
-			      	<a href="sweat_shirts.html">Sweat Shirts</a>
-			      		<div class="push popover__content">
-				    		<p class="popover__message">Sweat Shirts</p>
-				    		<img class = "pop_image" src="resources/images/female_avatar.png">
-				  		</div>
-				  </div>
-			    </div>
-		  </div> 
-		  <a href="contact.html">Contact</a>
-		  <a href="#news">About</a>
-		  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-		</div>
-	</div>
-
+	 <div w3-include-html="headerandnav.html"></div> 
 
 	<div class = "content">
 		
@@ -242,9 +135,9 @@
 		<div id="map"></div>
 	    <script>
 	      function initMap() {
-	        var uluru = {lat: -25.363, lng: 131.044};
+	        var uluru = {lat: 19.184014, lng: 72.831470};
 	        var map = new google.maps.Map(document.getElementById('map'), {
-	          zoom: 4,
+	          zoom: 15,
 	          center: uluru
 	        });
 	        var marker = new google.maps.Marker({
@@ -271,15 +164,15 @@
 
 				<div class="footer-left">
 
-					<h3>Flying<span>Falcon</span></h3>
+					<h3 id="textlogo">Flying<span>Falcon</span></h3>
 
 					<p class="footer-links">
-						<a href="index.html">Home</a>.
-						<a href="#">Blog</a>.
-						<a href="#">Pricing</a>.
-						<a href="#">About</a>.
-						<a href="#">Faq</a>.
-						<a href="contact.html">Contact</a>.
+						<a href="index.html">Home</a>
+						<a href="#">Blog</a>
+						<a href="#">Pricing</a>
+						<a href="#">About</a>
+						<a href="#">Faq</a>
+						<a href="contact.html">Contact</a>
 					</p>
 
 					<p class="footer-company-name">Flying Falcon &copy; 2018</p>
@@ -340,7 +233,39 @@
 
 <script src = "resources/js/slider.js"> </script>
 <script src = "resources/js/testimonialSlider.js"> </script>
-<!-- <script>
+ <script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+}
+</script> 
+ <script>
+includeHTML();
+</script>
+<script>
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "nav_containera") {
@@ -353,7 +278,7 @@ function myFunction() {
     
 
 }
-</script> -->
+</script>
 
 
 

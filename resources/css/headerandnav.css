@@ -56,9 +56,9 @@ button#dropbtna{
   max-height: auto;
 }
 
-.navbara a {
+.navbara a{
     float: left;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     text-align: center;
     padding: 14px 16px;
